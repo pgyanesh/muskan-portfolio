@@ -88,23 +88,26 @@
     border-radius: 50px;
     height: 5vh;
     padding-left: 1vw;
-    width: 13vw;
+    width: 12vw;
     border: 1px solid white;
-    color: white ;
+    color: var(--clr-font-color);
     font-size: 16px;
     display: flex;
     justify-content: end;
     position: absolute;
     cursor: pointer;
     background: #dddbdb;
-
+    align-items: center;
+    padding-right: 0.5vw;
 }
 #glass-icon{
     position: relative;
-    left: 159px;
-    top: 7px;
+    left: 13px;
+    top: 30px;
     height: 10px;
     cursor: pointer;
+    z-index: 100;
+    color: var(--clr-font-color);
 }
 
 /* NAVBAR-2 */
