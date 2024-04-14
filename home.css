@@ -209,6 +209,7 @@
     font-family: "Caveat", cursive;
   font-optical-sizing: auto;
   font-style: normal;
+  font-size: 19px;
 }
 .footer-links{
     display: flex;
