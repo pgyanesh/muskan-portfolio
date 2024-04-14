@@ -50,10 +50,10 @@
     animation-duration: calc(125s / var(--i));
 }
 .bubbles span:nth-child(even){
-    background:#a11919 ;
-    box-shadow: 0 0 0 1px #c27070,
-    0 0 5px #ed3737,
-    0 0 10px #b90505;
+    background:rgb(163, 162, 179) ;
+    box-shadow: 0 0 0 1px #3b383f,
+    0 0 5px #29292a,
+    0 0 10px #393950;
 }
 @keyframes animate {
     0%
@@ -106,57 +106,8 @@
     height: 10px;
     cursor: pointer;
 }
-/* label{
-    width: 50px;
-    height: 20px;
-    position: relative;
-    display: block;
-    background:khaki;
-    border-radius: 200px;
-    box-shadow: inset 0 5px 15px rgba(0,0,0,0.4), inset 0 -5px 15px rgba(255, 255, 255, 0.4);
-    cursor: pointer;
-    transition: 0.3s;
-}
-label:after{
-    content: "";
-    width: 18px;
-    height: 18px;
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    background: linear-gradient(180deg, #ffcc89, #d8860b);
-    border-radius: 180px;
-    box-shadow: 0, 5, 10 rgba(0,0,0,0.4);
-    transition: 0.3s;
-} */
-/* #darkMode-toggle{
-    width: 0;
-    height: 0;
-    visibility: hidden; 
-}
-input:checked{
-    background:#242424 ;
-}
-input:checked{
-    left: 49px;
-    transform: translateX(-100%);
-    background: linear-gradient(180deg,#777, #3a3a3a);
-} */
-/* label:active:after{
-    width: 26px;
-} */
-/* input:checked + label + .main-page + .container{
-    background: #242424;
-    z-index: 100;
-} */
 
-/* :root:has(input:checked){
-    --clr-bg-color: #fff !important;
-    --clr-font-color:#fff;
-    --clr-bg-abtcolor:#2a2929;
-} */
-/* 
-NAVBAR-2 */
+/* NAVBAR-2 */
 .navbar-2{
     transform: rotate(270deg);
     width: 25vw;

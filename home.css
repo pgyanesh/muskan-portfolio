@@ -49,10 +49,10 @@
     animation-duration: calc(125s / var(--i));
 }
 .bubbles span:nth-child(even){
-    background:#a11919 ;
-    box-shadow: 0 0 0 1px #c27070,
-    0 0 5px #ed3737,
-    0 0 10px #b90505;
+    background:rgb(163, 162, 179) ;
+    box-shadow: 0 0 0 1px #3b383f,
+    0 0 5px #29292a,
+    0 0 10px #393950;
 }
 @keyframes animate {
     0%
