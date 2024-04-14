@@ -313,6 +313,7 @@ position: absolute; */
     font-size: 15px;
     gap: 2vw;
     padding-bottom: 10vh;
+    margin-top: 1vh;
 }
 
 @media screen and (max-width: 800px) {
@@ -408,6 +409,7 @@ position: absolute; */
         gap: 4vw;
         padding-bottom: 5vh;
         text-align: center;
+    
     }
     .on-topHR>p{
         width: 9vw;
